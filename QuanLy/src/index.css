@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: Outfit;
+}
+
+select,
+input,
+textarea {
+    border: 1px solid #c2c2c2;
+    outline-color: #f78da7;
+    border-radius: 4px;
+}
+
+.active {
+    background-color: #ffebf5;
+    border-color: #C586A5;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid #d1d5db;
+    /* Màu viền mặc định */
+    border-radius: 0.25rem;
+    /* Tạo bo tròn */
+    outline: none;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #f78da7;
+    /* Màu nền khi được chọn */
+    border-color: #000000;
+    /* Màu viền khi được chọn */
+  }
