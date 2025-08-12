@@ -70,7 +70,7 @@ const Footer = () => {
 
       {/* Bản quyền */}
       <div className="w-full py-5 text-sm text-center font-semibold">
-        Copyright 2024 © GẤU BÔNG ONLINE
+        Copyright {new Date().getFullYear()} © GẤU BÔNG ONLINE
       </div>
     </div>
   );
